@@ -88,4 +88,4 @@ The original code of MainTUL : https://github.com/Onedean/MainTUL
 
 ## Parameter setting of baselines
 + TULER and its variants: (LR: 0.00095 / Dimension: 250 / Hidden size: 300 / Dropout rate: 0.5 / Layers: 2)  
-+ TULVAE: (LR: 0.001 / decays: 0.9 / $\beta$: 0.5-1 / POI Dimension: 250 / Hidden size: 300 / Latent Variable Dimension: 100)  <img width="466" alt="image" src="https://github.com/herohua1026/TUL_survey/assets/89980991/a1464ac5-83c1-490f-8a98-a8994f6a4f27">
++ TULVAE: (LR: 0.001 / decays: 0.9 / $\beta$: 0.5-1 / POI Dimension: 250 / Hidden size: 300 / Latent Variable Dimension: 100)  
