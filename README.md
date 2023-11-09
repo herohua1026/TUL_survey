@@ -44,8 +44,8 @@ Tdrive and Blueteeh(BT_w) : those two datasets cannot be shared openly but are a
 (take TULER or GNNTUL as an example, if you want to try other models, please follow the introduction of the original codes)
 - Preprocess original data, according to the reprocessing photograph.
 -  Modify the input path and file name in the config.py.
+- Adjust the hyperparameters and strategies according to the needs.
 - Run train_###.py(e.g, train_gnn.py for GNNTUL model)
-- Adjust the hyperparameters and strategies according to the needs
 
 
 ## Dependencies
