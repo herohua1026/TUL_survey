@@ -6,15 +6,16 @@ instruction and codes for a survey on trajectory-user linking
 #### Raw data：
 
 We utilize the following six datasets:<br/>
-Gowalla: http://snap.stanford.edu/data/loc-gowalla.html<br/>
-Brightkite: http://snap.stanford.edu/data/loc-brightkite.html<br/>
-Foursquare(New York): https://sites.google.com/site/yangdingqi/home/foursquare-dataset<br/>
-Geolife: https://www.microsoft.com/en-us/research/publication/geolife-gps-trajectory-dataset-user-guide/<br/>
-Tdrive and Blueteeh(BT_w) : These two datasets are not openly shared but are available on request from the authors.<br/>
+- Gowalla: http://snap.stanford.edu/data/loc-gowalla.html<br/>
+- Brightkite: http://snap.stanford.edu/data/loc-brightkite.html<br/>
+- Foursquare(New York): https://sites.google.com/site/yangdingqi/home/foursquare-dataset<br/>
+- Geolife: https://www.microsoft.com/en-us/research/publication/geolife-gps-trajectory-dataset-user-guide/<br/>
+- T-Drive: https://www.microsoft.com/en-us/research/publication/t-drive-trajectory-data-sample/<br/>
+- Blueteeh(BT_w) is not openly shared but is available on request from the authors.<br/>
 
 Remark: These datasets are intended for academic purposes only and should not be used for commercial purposes. Please cite the relevant paper when using these datasets.
 
-#### Prepocessed data：
+#### Preprocessed data：
 
 - The dataset usage process is demonstrated in the following diagram:
 ![Screen Shot 2023-11-06 at 11 04 08 am](https://github.com/herohua1026/TUL_survey/assets/89980991/a35c5b1c-3aaf-40c6-9827-2b98cd791f2e)
@@ -37,14 +38,14 @@ Remark: These datasets are intended for academic purposes only and should not be
 
 
 
-- The dataset usage pre-process includes two parts, reforming and segmentation.
-- The pre-pocessed data sample is available in the folder [data](./data/reformed_data and segmented_data).
-- Some models(e.g., TULER) requre POI embedding, which can be achieved using the word2vec method. The corresponding python file is located the folder[./data/word2vec].
+- The dataset usage pre-process includes two parts: reforming and segmentation.
+- The pre-processed data sample is available in the folder [data](./data/reformed_data and segmented_data).
+- Some models(e.g., TULER) requre POI embedding, which can be achieved using the word2vec method. The corresponding python file is located in the folder[./data/word2vec].
 
 ## Usage
-(Exajmple using TULER or GNNTUL. For other models, please refer to the instructions in their respetive code repositories.)
+(Exajmple using TULER or GNNTUL. For other models, please refer to the instructions in their respective code repositories.)
 - Preprocess the original data according to the reprocessing diagram.
--  Modify the input path and filename in 'config.py'.
+- Modify the input path and filename in 'config.py'.
 - Adjust the hyperparameters and strategies as needed.
 - Run train_###.py(e.g, train_gnn.py for GNNTUL model)
 
